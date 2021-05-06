@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.19)
+project(TeleBookl)
+INCLUDE_DIRECTORIES(include)
+set(CMAKE_CXX_STANDARD 14)
+AUX_SOURCE_DIRECTORY(. SRC)
+add_executable(TeleBook ${SRC})

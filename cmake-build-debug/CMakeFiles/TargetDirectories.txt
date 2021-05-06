@@ -1,0 +1,3 @@
+C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/CMakeFiles/TeleBook.dir
+C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/CMakeFiles/rebuild_cache.dir
