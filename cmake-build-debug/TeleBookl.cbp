@@ -82,10 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/Source.cpp">
-			<Option target="TeleBook"/>
-		</Unit>
-		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/main.cpp">
+		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/main.c">
 			<Option target="TeleBook"/>
 		</Unit>
 		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/CMakeLists.txt">

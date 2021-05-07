@@ -75,49 +75,33 @@ include CMakeFiles/TeleBook.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TeleBook.dir/flags.make
 
-CMakeFiles/TeleBook.dir/Source.cpp.obj: CMakeFiles/TeleBook.dir/flags.make
-CMakeFiles/TeleBook.dir/Source.cpp.obj: CMakeFiles/TeleBook.dir/includes_CXX.rsp
-CMakeFiles/TeleBook.dir/Source.cpp.obj: ../Source.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TeleBook.dir/Source.cpp.obj"
-	G:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TeleBook.dir\Source.cpp.obj -c C:\Users\qanyu\CLionProjects\TeleBook\Source.cpp
+CMakeFiles/TeleBook.dir/main.c.obj: CMakeFiles/TeleBook.dir/flags.make
+CMakeFiles/TeleBook.dir/main.c.obj: CMakeFiles/TeleBook.dir/includes_C.rsp
+CMakeFiles/TeleBook.dir/main.c.obj: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/TeleBook.dir/main.c.obj"
+	G:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\TeleBook.dir\main.c.obj -c C:\Users\qanyu\CLionProjects\TeleBook\main.c
 
-CMakeFiles/TeleBook.dir/Source.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TeleBook.dir/Source.cpp.i"
-	G:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\qanyu\CLionProjects\TeleBook\Source.cpp > CMakeFiles\TeleBook.dir\Source.cpp.i
+CMakeFiles/TeleBook.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/TeleBook.dir/main.c.i"
+	G:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\qanyu\CLionProjects\TeleBook\main.c > CMakeFiles\TeleBook.dir\main.c.i
 
-CMakeFiles/TeleBook.dir/Source.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TeleBook.dir/Source.cpp.s"
-	G:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\qanyu\CLionProjects\TeleBook\Source.cpp -o CMakeFiles\TeleBook.dir\Source.cpp.s
-
-CMakeFiles/TeleBook.dir/main.cpp.obj: CMakeFiles/TeleBook.dir/flags.make
-CMakeFiles/TeleBook.dir/main.cpp.obj: CMakeFiles/TeleBook.dir/includes_CXX.rsp
-CMakeFiles/TeleBook.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TeleBook.dir/main.cpp.obj"
-	G:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TeleBook.dir\main.cpp.obj -c C:\Users\qanyu\CLionProjects\TeleBook\main.cpp
-
-CMakeFiles/TeleBook.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TeleBook.dir/main.cpp.i"
-	G:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\qanyu\CLionProjects\TeleBook\main.cpp > CMakeFiles\TeleBook.dir\main.cpp.i
-
-CMakeFiles/TeleBook.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TeleBook.dir/main.cpp.s"
-	G:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\qanyu\CLionProjects\TeleBook\main.cpp -o CMakeFiles\TeleBook.dir\main.cpp.s
+CMakeFiles/TeleBook.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/TeleBook.dir/main.c.s"
+	G:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\qanyu\CLionProjects\TeleBook\main.c -o CMakeFiles\TeleBook.dir\main.c.s
 
 # Object files for target TeleBook
 TeleBook_OBJECTS = \
-"CMakeFiles/TeleBook.dir/Source.cpp.obj" \
-"CMakeFiles/TeleBook.dir/main.cpp.obj"
+"CMakeFiles/TeleBook.dir/main.c.obj"
 
 # External object files for target TeleBook
 TeleBook_EXTERNAL_OBJECTS =
 
-TeleBook.exe: CMakeFiles/TeleBook.dir/Source.cpp.obj
-TeleBook.exe: CMakeFiles/TeleBook.dir/main.cpp.obj
+TeleBook.exe: CMakeFiles/TeleBook.dir/main.c.obj
 TeleBook.exe: CMakeFiles/TeleBook.dir/build.make
 TeleBook.exe: CMakeFiles/TeleBook.dir/linklibs.rsp
 TeleBook.exe: CMakeFiles/TeleBook.dir/objects1.rsp
 TeleBook.exe: CMakeFiles/TeleBook.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable TeleBook.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable TeleBook.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TeleBook.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -141,59 +141,32 @@ TeleBook/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/build
 .PHONY : TeleBook/fast
 
-Source.obj: Source.cpp.obj
-
-.PHONY : Source.obj
-
-# target to build an object file
-Source.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/Source.cpp.obj
-.PHONY : Source.cpp.obj
-
-Source.i: Source.cpp.i
-
-.PHONY : Source.i
-
-# target to preprocess a source file
-Source.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/Source.cpp.i
-.PHONY : Source.cpp.i
-
-Source.s: Source.cpp.s
-
-.PHONY : Source.s
-
-# target to generate assembly for a file
-Source.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/Source.cpp.s
-.PHONY : Source.cpp.s
-
-main.obj: main.cpp.obj
+main.obj: main.c.obj
 
 .PHONY : main.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/main.c.obj
+.PHONY : main.c.obj
 
-main.i: main.cpp.i
+main.i: main.c.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/main.cpp.i
-.PHONY : main.cpp.i
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/main.c.i
+.PHONY : main.c.i
 
-main.s: main.cpp.s
+main.s: main.c.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/main.cpp.s
-.PHONY : main.cpp.s
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -204,9 +177,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TeleBook
-	@echo ... Source.obj
-	@echo ... Source.i
-	@echo ... Source.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
