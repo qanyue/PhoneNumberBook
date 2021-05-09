@@ -17,11 +17,159 @@
 					<DistClean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test">
+				<Option output="C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/lib/."/>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/include"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test/fast">
+				<Option output="C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/lib/."/>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/include"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<CompileFile command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AllFunctions">
+				<Option output="C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/libAllFunctions.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/lib/."/>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/include"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 AllFunctions"/>
+					<CompileFile command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AllFunctions/fast">
+				<Option output="C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/libAllFunctions.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/lib/."/>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/include"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 AllFunctions/fast"/>
+					<CompileFile command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ClionTest">
+				<Option output="C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/ClionTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/lib/."/>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/include"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 ClionTest"/>
+					<CompileFile command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ClionTest/fast">
+				<Option output="C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/ClionTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/lib/."/>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/include"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 ClionTest/fast"/>
 					<CompileFile command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -34,6 +182,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/lib/."/>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/include"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -55,6 +205,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/lib/."/>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/include"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -69,19 +221,48 @@
 					<DistClean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="G:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
+		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/ClionTest.cpp">
+			<Option target="ClionTest"/>
+		</Unit>
+		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/Test.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/lib/Bucket.h">
+			<Option target="AllFunctions"/>
+		</Unit>
+		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/lib/Dire_Page.h">
+			<Option target="AllFunctions"/>
+		</Unit>
+		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/lib/IOFile.h">
+			<Option target="AllFunctions"/>
+		</Unit>
+		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/lib/Key.h">
+			<Option target="AllFunctions"/>
+		</Unit>
+		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/lib/People.h">
+			<Option target="AllFunctions"/>
+		</Unit>
 		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/main.cpp">
 			<Option target="TeleBook"/>
+		</Unit>
+		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/src/Bucket.cpp">
+			<Option target="AllFunctions"/>
+		</Unit>
+		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/src/Dire_Page.cpp">
+			<Option target="AllFunctions"/>
+		</Unit>
+		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/src/IOFile.cpp">
+			<Option target="AllFunctions"/>
+		</Unit>
+		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/src/Key.cpp">
+			<Option target="AllFunctions"/>
+		</Unit>
+		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/src/People.cpp">
+			<Option target="AllFunctions"/>
+		</Unit>
+		<Unit filename="G:/mingw64/include">
+			<Option target="AllFunctions"/>
 		</Unit>
 		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

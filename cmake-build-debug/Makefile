@@ -74,17 +74,6 @@ CMAKE_BINARY_DIR = C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	G:\JetBrains\Toolbox\apps\CLion\ch-0\211.7142.21\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -95,6 +84,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	G:\JetBrains\Toolbox\apps\CLion\ch-0\211.7142.21\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,6 +129,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Test
+
+# Build rule for target.
+Test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test
+.PHONY : Test
+
+# fast build rule for target.
+Test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
+.PHONY : Test/fast
+
+#=============================================================================
+# Target rules for targets named AllFunctions
+
+# Build rule for target.
+AllFunctions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AllFunctions
+.PHONY : AllFunctions
+
+# fast build rule for target.
+AllFunctions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/build
+.PHONY : AllFunctions/fast
+
+#=============================================================================
+# Target rules for targets named ClionTest
+
+# Build rule for target.
+ClionTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ClionTest
+.PHONY : ClionTest
+
+# fast build rule for target.
+ClionTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ClionTest.dir\build.make CMakeFiles/ClionTest.dir/build
+.PHONY : ClionTest/fast
+
+#=============================================================================
 # Target rules for targets named TeleBook
 
 # Build rule for target.
@@ -141,32 +180,221 @@ TeleBook/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/build
 .PHONY : TeleBook/fast
 
-main.obj: main.c.obj
+ClionTest.obj: ClionTest.cpp.obj
+
+.PHONY : ClionTest.obj
+
+# target to build an object file
+ClionTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ClionTest.dir\build.make CMakeFiles/ClionTest.dir/ClionTest.cpp.obj
+.PHONY : ClionTest.cpp.obj
+
+ClionTest.i: ClionTest.cpp.i
+
+.PHONY : ClionTest.i
+
+# target to preprocess a source file
+ClionTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ClionTest.dir\build.make CMakeFiles/ClionTest.dir/ClionTest.cpp.i
+.PHONY : ClionTest.cpp.i
+
+ClionTest.s: ClionTest.cpp.s
+
+.PHONY : ClionTest.s
+
+# target to generate assembly for a file
+ClionTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ClionTest.dir\build.make CMakeFiles/ClionTest.dir/ClionTest.cpp.s
+.PHONY : ClionTest.cpp.s
+
+Test.obj: Test.cpp.obj
+
+.PHONY : Test.obj
+
+# target to build an object file
+Test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Test.cpp.obj
+.PHONY : Test.cpp.obj
+
+Test.i: Test.cpp.i
+
+.PHONY : Test.i
+
+# target to preprocess a source file
+Test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Test.cpp.i
+.PHONY : Test.cpp.i
+
+Test.s: Test.cpp.s
+
+.PHONY : Test.s
+
+# target to generate assembly for a file
+Test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/Test.cpp.s
+.PHONY : Test.cpp.s
+
+main.obj: main.cpp.obj
 
 .PHONY : main.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/main.c.obj
-.PHONY : main.c.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-main.i: main.c.i
+main.i: main.cpp.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/main.c.i
-.PHONY : main.c.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main.s: main.c.s
+main.s: main.cpp.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/main.c.s
-.PHONY : main.c.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+src/Bucket.obj: src/Bucket.cpp.obj
+
+.PHONY : src/Bucket.obj
+
+# target to build an object file
+src/Bucket.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/src/Bucket.cpp.obj
+.PHONY : src/Bucket.cpp.obj
+
+src/Bucket.i: src/Bucket.cpp.i
+
+.PHONY : src/Bucket.i
+
+# target to preprocess a source file
+src/Bucket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/src/Bucket.cpp.i
+.PHONY : src/Bucket.cpp.i
+
+src/Bucket.s: src/Bucket.cpp.s
+
+.PHONY : src/Bucket.s
+
+# target to generate assembly for a file
+src/Bucket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/src/Bucket.cpp.s
+.PHONY : src/Bucket.cpp.s
+
+src/Dire_Page.obj: src/Dire_Page.cpp.obj
+
+.PHONY : src/Dire_Page.obj
+
+# target to build an object file
+src/Dire_Page.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/src/Dire_Page.cpp.obj
+.PHONY : src/Dire_Page.cpp.obj
+
+src/Dire_Page.i: src/Dire_Page.cpp.i
+
+.PHONY : src/Dire_Page.i
+
+# target to preprocess a source file
+src/Dire_Page.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/src/Dire_Page.cpp.i
+.PHONY : src/Dire_Page.cpp.i
+
+src/Dire_Page.s: src/Dire_Page.cpp.s
+
+.PHONY : src/Dire_Page.s
+
+# target to generate assembly for a file
+src/Dire_Page.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/src/Dire_Page.cpp.s
+.PHONY : src/Dire_Page.cpp.s
+
+src/IOFile.obj: src/IOFile.cpp.obj
+
+.PHONY : src/IOFile.obj
+
+# target to build an object file
+src/IOFile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/src/IOFile.cpp.obj
+.PHONY : src/IOFile.cpp.obj
+
+src/IOFile.i: src/IOFile.cpp.i
+
+.PHONY : src/IOFile.i
+
+# target to preprocess a source file
+src/IOFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/src/IOFile.cpp.i
+.PHONY : src/IOFile.cpp.i
+
+src/IOFile.s: src/IOFile.cpp.s
+
+.PHONY : src/IOFile.s
+
+# target to generate assembly for a file
+src/IOFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/src/IOFile.cpp.s
+.PHONY : src/IOFile.cpp.s
+
+src/Key.obj: src/Key.cpp.obj
+
+.PHONY : src/Key.obj
+
+# target to build an object file
+src/Key.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/src/Key.cpp.obj
+.PHONY : src/Key.cpp.obj
+
+src/Key.i: src/Key.cpp.i
+
+.PHONY : src/Key.i
+
+# target to preprocess a source file
+src/Key.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/src/Key.cpp.i
+.PHONY : src/Key.cpp.i
+
+src/Key.s: src/Key.cpp.s
+
+.PHONY : src/Key.s
+
+# target to generate assembly for a file
+src/Key.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/src/Key.cpp.s
+.PHONY : src/Key.cpp.s
+
+src/People.obj: src/People.cpp.obj
+
+.PHONY : src/People.obj
+
+# target to build an object file
+src/People.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/src/People.cpp.obj
+.PHONY : src/People.cpp.obj
+
+src/People.i: src/People.cpp.i
+
+.PHONY : src/People.i
+
+# target to preprocess a source file
+src/People.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/src/People.cpp.i
+.PHONY : src/People.cpp.i
+
+src/People.s: src/People.cpp.s
+
+.PHONY : src/People.s
+
+# target to generate assembly for a file
+src/People.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/src/People.cpp.s
+.PHONY : src/People.cpp.s
 
 # Help Target
 help:
@@ -176,10 +404,34 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... AllFunctions
+	@echo ... ClionTest
 	@echo ... TeleBook
+	@echo ... Test
+	@echo ... ClionTest.obj
+	@echo ... ClionTest.i
+	@echo ... ClionTest.s
+	@echo ... Test.obj
+	@echo ... Test.i
+	@echo ... Test.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/Bucket.obj
+	@echo ... src/Bucket.i
+	@echo ... src/Bucket.s
+	@echo ... src/Dire_Page.obj
+	@echo ... src/Dire_Page.i
+	@echo ... src/Dire_Page.s
+	@echo ... src/IOFile.obj
+	@echo ... src/IOFile.i
+	@echo ... src/IOFile.s
+	@echo ... src/Key.obj
+	@echo ... src/Key.i
+	@echo ... src/Key.s
+	@echo ... src/People.obj
+	@echo ... src/People.i
+	@echo ... src/People.s
 .PHONY : help
 
 

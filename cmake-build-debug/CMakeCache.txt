@@ -39,7 +39,7 @@ CMAKE_CODEBLOCKS_MAKE_ARGUMENTS:STRING=
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=G:/mingw64/bin/g++.exe
+CMAKE_CXX_COMPILER:STRING=G:/mingw64/bin/g++.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -68,7 +68,7 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
 
 //C compiler
-CMAKE_C_COMPILER:FILEPATH=G:/mingw64/bin/gcc.exe
+CMAKE_C_COMPILER:STRING=G:/mingw64/bin/gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -162,7 +162,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=TeleBookl
+CMAKE_PROJECT_NAME:STATIC=TeleBook
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=G:/mingw64/bin/ranlib.exe
@@ -255,6 +255,12 @@ TeleBookl_BINARY_DIR:STATIC=C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-de
 
 //Value Computed by CMake
 TeleBookl_SOURCE_DIR:STATIC=C:/Users/qanyu/CLionProjects/TeleBook
+
+//Value Computed by CMake
+library_BINARY_DIR:STATIC=C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug
+
+//Value Computed by CMake
+library_SOURCE_DIR:STATIC=C:/Users/qanyu/CLionProjects/TeleBook
 
 
 ########################

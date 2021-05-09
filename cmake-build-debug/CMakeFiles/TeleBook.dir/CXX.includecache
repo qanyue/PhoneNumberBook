@@ -6,7 +6,35 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/qanyu/CLionProjects/TeleBook/Source.cpp
+C:/Users/qanyu/CLionProjects/TeleBook/lib/Bucket.h
+stdio.h
+C:/Users/qanyu/CLionProjects/TeleBook/lib/stdio.h
+People.h
+C:/Users/qanyu/CLionProjects/TeleBook/lib/People.h
+stdlib.h
+C:/Users/qanyu/CLionProjects/TeleBook/lib/stdlib.h
+
+C:/Users/qanyu/CLionProjects/TeleBook/lib/Dire_Page.h
+People.h
+-
+Bucket.h
+C:/Users/qanyu/CLionProjects/TeleBook/lib/Bucket.h
+
+C:/Users/qanyu/CLionProjects/TeleBook/lib/IOFile.h
+../lib/Bucket.h
+C:/Users/qanyu/CLionProjects/TeleBook/lib/Bucket.h
+
+C:/Users/qanyu/CLionProjects/TeleBook/lib/Key.h
+People.h
+C:/Users/qanyu/CLionProjects/TeleBook/lib/People.h
+Bucket.h
+C:/Users/qanyu/CLionProjects/TeleBook/lib/Bucket.h
+
+C:/Users/qanyu/CLionProjects/TeleBook/lib/People.h
+string.h
+C:/Users/qanyu/CLionProjects/TeleBook/lib/string.h
+
+C:/Users/qanyu/CLionProjects/TeleBook/main.cpp
 stdio.h
 -
 stdlib.h
@@ -15,8 +43,14 @@ string.h
 -
 malloc.h
 -
-
-C:/Users/qanyu/CLionProjects/TeleBook/main.cpp
-iostream
--
+lib/Bucket.h
+C:/Users/qanyu/CLionProjects/TeleBook/lib/Bucket.h
+lib/People.h
+C:/Users/qanyu/CLionProjects/TeleBook/lib/People.h
+lib/IOFile.h
+C:/Users/qanyu/CLionProjects/TeleBook/lib/IOFile.h
+lib/Dire_Page.h
+C:/Users/qanyu/CLionProjects/TeleBook/lib/Dire_Page.h
+lib/Key.h
+C:/Users/qanyu/CLionProjects/TeleBook/lib/Key.h
 

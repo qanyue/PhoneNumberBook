@@ -71,6 +71,9 @@ CMAKE_BINARY_DIR = C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Test.dir/all
+all: CMakeFiles/AllFunctions.dir/all
+all: CMakeFiles/ClionTest.dir/all
 all: CMakeFiles/TeleBook.dir/all
 
 .PHONY : all
@@ -81,23 +84,107 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Test.dir/clean
+clean: CMakeFiles/AllFunctions.dir/clean
+clean: CMakeFiles/ClionTest.dir/clean
 clean: CMakeFiles/TeleBook.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Test.dir
+
+# All Build rule for target.
+CMakeFiles/Test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Test"
+.PHONY : CMakeFiles/Test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Test.dir/rule
+
+# Convenience name for target.
+Test: CMakeFiles/Test.dir/rule
+
+.PHONY : Test
+
+# clean rule for target.
+CMakeFiles/Test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/clean
+.PHONY : CMakeFiles/Test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/AllFunctions.dir
+
+# All Build rule for target.
+CMakeFiles/AllFunctions.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target AllFunctions"
+.PHONY : CMakeFiles/AllFunctions.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/AllFunctions.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/AllFunctions.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/AllFunctions.dir/rule
+
+# Convenience name for target.
+AllFunctions: CMakeFiles/AllFunctions.dir/rule
+
+.PHONY : AllFunctions
+
+# clean rule for target.
+CMakeFiles/AllFunctions.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AllFunctions.dir\build.make CMakeFiles/AllFunctions.dir/clean
+.PHONY : CMakeFiles/AllFunctions.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ClionTest.dir
+
+# All Build rule for target.
+CMakeFiles/ClionTest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ClionTest.dir\build.make CMakeFiles/ClionTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ClionTest.dir\build.make CMakeFiles/ClionTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target ClionTest"
+.PHONY : CMakeFiles/ClionTest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ClionTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ClionTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/ClionTest.dir/rule
+
+# Convenience name for target.
+ClionTest: CMakeFiles/ClionTest.dir/rule
+
+.PHONY : ClionTest
+
+# clean rule for target.
+CMakeFiles/ClionTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ClionTest.dir\build.make CMakeFiles/ClionTest.dir/clean
+.PHONY : CMakeFiles/ClionTest.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/TeleBook.dir
 
 # All Build rule for target.
-CMakeFiles/TeleBook.dir/all:
+CMakeFiles/TeleBook.dir/all: CMakeFiles/AllFunctions.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TeleBook.dir\build.make CMakeFiles/TeleBook.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target TeleBook"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target TeleBook"
 .PHONY : CMakeFiles/TeleBook.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TeleBook.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TeleBook.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\qanyu\CLionProjects\TeleBook\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/TeleBook.dir/rule

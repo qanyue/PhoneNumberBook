@@ -1,3 +1,6 @@
-C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/CMakeFiles/TeleBook.dir
 C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/CMakeFiles/Test.dir
+C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/CMakeFiles/AllFunctions.dir
+C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/CMakeFiles/ClionTest.dir
+C:/Users/qanyu/CLionProjects/TeleBook/cmake-build-debug/CMakeFiles/TeleBook.dir

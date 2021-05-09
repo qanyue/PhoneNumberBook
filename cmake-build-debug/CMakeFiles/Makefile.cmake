@@ -51,5 +51,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Test.dir/DependInfo.cmake"
+  "CMakeFiles/AllFunctions.dir/DependInfo.cmake"
+  "CMakeFiles/ClionTest.dir/DependInfo.cmake"
   "CMakeFiles/TeleBook.dir/DependInfo.cmake"
   )
