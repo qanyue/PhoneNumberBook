@@ -34,7 +34,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/lib/."/>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/./lib"/>
 					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/include"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
@@ -57,7 +57,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/lib/."/>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/./lib"/>
 					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/include"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
@@ -80,7 +80,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/lib/."/>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/./lib"/>
 					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/include"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
@@ -103,7 +103,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/lib/."/>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/./lib"/>
 					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/include"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
@@ -136,7 +136,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/lib/."/>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/./lib"/>
 					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/include"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
@@ -159,7 +159,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/lib/."/>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/./lib"/>
 					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/include"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
@@ -182,7 +182,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/lib/."/>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/./lib"/>
 					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/include"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
@@ -205,7 +205,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/lib/."/>
+					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/./lib"/>
 					<Add directory="C:/Users/qanyu/CLionProjects/TeleBook/include"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="G:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
@@ -228,21 +228,6 @@
 		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/Test.cpp">
 			<Option target="Test"/>
 		</Unit>
-		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/lib/Bucket.h">
-			<Option target="AllFunctions"/>
-		</Unit>
-		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/lib/Dire_Page.h">
-			<Option target="AllFunctions"/>
-		</Unit>
-		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/lib/IOFile.h">
-			<Option target="AllFunctions"/>
-		</Unit>
-		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/lib/Key.h">
-			<Option target="AllFunctions"/>
-		</Unit>
-		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/lib/People.h">
-			<Option target="AllFunctions"/>
-		</Unit>
 		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/main.cpp">
 			<Option target="TeleBook"/>
 		</Unit>
@@ -259,9 +244,6 @@
 			<Option target="AllFunctions"/>
 		</Unit>
 		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/src/People.cpp">
-			<Option target="AllFunctions"/>
-		</Unit>
-		<Unit filename="G:/mingw64/include">
 			<Option target="AllFunctions"/>
 		</Unit>
 		<Unit filename="C:/Users/qanyu/CLionProjects/TeleBook/CMakeLists.txt">

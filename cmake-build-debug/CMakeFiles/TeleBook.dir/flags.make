@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = @CMakeFiles/TeleBook.dir/includes_CXX.rsp
 
-CXX_FLAGS =  -Wall -fexec-charset=GBK -g -std=gnu++14
+CXX_FLAGS =  -Wall -finput-charset=GBK -fexec-charset=GBK -g -std=gnu++14
 

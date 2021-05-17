@@ -11,7 +11,6 @@
 
 int main() {
     int tag = 0;
-    int tag1 = 0;
     People p;
     int m = 20;
     int num = 0;
@@ -19,71 +18,63 @@ int main() {
     Pbucket b2 = create_Bucket(m);
     FILE * book =fopen("TeleBook.txt", "r+");
     if(book!=NULL){
-        ReadFile(b1,b2);
-        printf("å·²å­˜åœ¨ç”µè¯ç°¿æ–‡ä»¶ï¼ŒæˆåŠŸè¯»å–!\n");
+        ReadFile(b,num);
+        printf("ÒÑ´æÔÚµç»°²¾ÎÄ¼ş£¬³É¹¦¶ÁÈ¡%d¸ö!\n",num);
         fflush(stdout);
     }
     out:
-    printf("1.å¢æ·»è®°å½•\n");
-    printf("2.åˆ é™¤è®°å½•\n");
-    printf("3.ä»¥ç”µè¯å·ç è¿›è¡ŒæŸ¥æ‰¾\n");
-    printf("4.ä»¥å§“åè¿›è¡ŒæŸ¥æ‰¾\n");
-    printf("5.é€€å‡º\n");
+    printf("===========================\n");
+    printf("1.ÔöÌí¼ÇÂ¼\n");
+    printf("2.É¾³ı¼ÇÂ¼\n");
+    printf("3.ÒÔµç»°ºÅÂë½øĞĞ²éÕÒ\n");
+    printf("4.´òÓ¡È«²¿\n");
+    printf("5.ÍË³ö\n");
+    printf("===========================\n");
     fflush(stdout);
     scanf("%d", &tag);
+    getchar();
+    printf("===========================\n");
     if (tag == 1) {
-        printf("è¾“å…¥å§“åï¼š");
+        printf("ÊäÈëĞÕÃû£º");
         fflush(stdout);
         scanf("%s", p.Name);
-        printf("è¾“å…¥ç”µè¯å·ç ï¼š");
+        printf("ÊäÈëµç»°ºÅÂë£º");
         fflush(stdout);
         scanf("%s", p.PhoneNumber);
-        printf("è¾“å…¥åœ°å€ï¼š");
+        printf("ÊäÈëµØÖ·£º");
         fflush(stdout);
         scanf("%s", p.Address);
-        insert_Page(b1, &p, 0);
-        insert_Page(b2, &p, 1);
+        printf("===========================\n");
+        insert_Page(b, &p);
+        printf("===========================\n");
         num++;
-        if(num >=10){
-            enlarge_Bucket(b1, 0);
-            enlarge_Bucket(b2, 1);
+        if(num >=b->m/2){
+
+            enlarge_Bucket(b);
         }
         goto out;
     } else if (tag == 2) {
-        printf("1.ä»¥ç”µè¯å·ç è¿›è¡Œåˆ é™¤\n");
-        printf("2.ä»¥å§“åè¿›è¡Œåˆ é™¤\n");
-        fflush(stdout);
-        scanf("%d", &tag1);
-        if (tag1 == 1) {
-            printf("è¾“å…¥ç”µè¯å·ç ï¼š");
-            fflush(stdout);
-            scanf("%s", p.PhoneNumber);
-            del_Page(b2, &p, 1);
-        } else if (tag1 == 2) {
-            printf("è¾“å…¥å§“åï¼š");
-            fflush(stdout);
-            scanf("%s", p.Name);
-            del_Page(b1, &p, 0);
-        } else {
-            printf("error\n");
-            fflush(stdout);
-        }
-        goto out;
-    } else if (tag == 3) {
-        printf("è¾“å…¥ç”µè¯å·ç ï¼š");
+        printf("ÊäÈëµç»°ºÅÂë£º");
         fflush(stdout);
         scanf("%s", p.PhoneNumber);
-        Print(b2, &p, 1);
+        printf("===========================\n");
+        del_Page(b, &p);
         goto out;
-    } else if (tag == 4) {
-        printf("è¾“å…¥å§“åï¼š");
+    } else if (tag == 3) {
+        printf("ÊäÈëµç»°ºÅÂë£º");
         fflush(stdout);
-        scanf("%s", p.Name);
-        Print(b1, &p, 0);
+        scanf("%s", p.PhoneNumber);
+        printf("===========================\n");
+        Print(b, &p);
         goto out;
-    } else if (tag == 5) {
+    }  else if(tag==4) {
+        Print_All(b);
+        goto out;
+    }  else if (tag == 5) {
+        Saveinfile(b);
         return 0;
     } else {
+        printf("===========================\n");
         printf("error\n");
         fflush(stdout);
         goto out;

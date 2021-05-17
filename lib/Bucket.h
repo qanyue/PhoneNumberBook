@@ -29,7 +29,8 @@ typedef struct dire_Bucket {
 typedef Bucket * Pbucket;
 Pbucket create_Bucket(int m);
 void Del_Bucket(Pbucket p);
-void enlarge_Bucket(Pbucket& p, int tag);
+void enlarge_Bucket(Pbucket& p);
+void Print_All(Pbucket b);
 
 
 #endif //LIBRARY_BUCKET_H

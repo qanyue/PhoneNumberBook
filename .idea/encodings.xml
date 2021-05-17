@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK" addBOMForNewFiles="with BOM">
+    <file url="file://$PROJECT_DIR$/CMakeLists.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/ClionTest.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Test.cpp" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/main.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cmake-build-debug/TeleBook.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib/Bucket.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/Dire_Page.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/IOFile.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/main.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Bucket.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Dire_Page.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/IOFile.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Key.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/People.cpp" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>

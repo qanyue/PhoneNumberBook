@@ -8,5 +8,6 @@
 #include "../lib/Bucket.h"
 
 void Saveinfile(Pbucket p);
-void ReadFile(Pbucket b1,Pbucket b2);
+void ReadFile(Pbucket b1,int &num);
+
 #endif //LIBRARY_IOFILE_H

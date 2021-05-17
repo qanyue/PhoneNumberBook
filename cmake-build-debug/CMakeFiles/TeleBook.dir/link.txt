@@ -1,3 +1,3 @@
 G:\JetBrains\Toolbox\apps\CLion\ch-0\211.7142.21\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\TeleBook.dir/objects.a
 G:\mingw64\bin\ar.exe cr CMakeFiles\TeleBook.dir/objects.a @CMakeFiles\TeleBook.dir\objects1.rsp
-G:\mingw64\bin\g++.exe  -Wall -fexec-charset=GBK -g -Wl,--whole-archive CMakeFiles\TeleBook.dir/objects.a -Wl,--no-whole-archive -o TeleBook.exe -Wl,--out-implib,libTeleBook.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TeleBook.dir\linklibs.rsp
+G:\mingw64\bin\g++.exe  -Wall -finput-charset=GBK -fexec-charset=GBK -g -Wl,--whole-archive CMakeFiles\TeleBook.dir/objects.a -Wl,--no-whole-archive -o TeleBook.exe -Wl,--out-implib,libTeleBook.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TeleBook.dir\linklibs.rsp

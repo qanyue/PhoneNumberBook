@@ -26,18 +26,11 @@ int hash(int key, int map) {   //哈希函数
     return h;
 
 }
-int search(Pbucket p, PPeople q, int tag, Pdirepage *address, int *Position) {
+int search(Pbucket p, PPeople q, Pdirepage *address, int *Position) {
     Pdirepage t = NULL;
-    int key = 0;
+    int key = -1;
     *Position = -1;
-    if (tag == 0) {                         // tag = 0 代表通过名字散列表查找
-        key = q->key_name;
-    } else if (tag == 1) {
-        key = q->key_tel;                 //tag 为其它状态代表通过电话查找
-    } else {
-        printf("Error tag");
-        return 0;
-    }
+    key = q->key_tel;                 //tag 为其它状态代表通过电话查找
     if (key < 0) {
         return 0;
     }
@@ -63,18 +56,18 @@ int search(Pbucket p, PPeople q, int tag, Pdirepage *address, int *Position) {
 }
 
 
-void Print(Pbucket b, PPeople t, int tag) {
+void Print(Pbucket b, PPeople t) { //查找并显示给定电话号码的记录
     init_Key(t);
     Pdirepage address = NULL;
     int position = -1;
-    int i = 0;
-    int tag1 = search(b, t, tag, &address, &position);
-    if (tag1 == 0) {
+
+    int tag = search(b, t,  &address, &position);
+    if (tag == 0) {
         printf("not exist!\n");
         return;
     }
-    printf("Name:%s\n", address->s[i].Name);
-    printf("PhoneNumber::%s\n", address->s[i].PhoneNumber);
-    printf("Address:%s\n", address->s[i].Address);
+    printf("Name:%s\n", address->s[position].Name);
+    printf("PhoneNumber:%s\n", address->s[position].PhoneNumber);
+    printf("Address:%s\n", address->s[position].Address);
 }
 
